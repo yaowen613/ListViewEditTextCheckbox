@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:checked="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:minWidth="50dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:text="测试数据"
+        android:textColor="#666666"/>
+
+    <Button
+        android:id="@+id/downbtn1"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="-" />
+
+    <EditText
+        android:id="@+id/num_edit1"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:numeric="integer"
+        android:singleLine="true"
+        android:text="1" 
+        android:gravity="center"
+        android:textSize="35dip"
+        android:background="#e0ffff"/>
+
+    <Button
+        android:id="@+id/upbtn1"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="+" />
+
+</LinearLayout>
